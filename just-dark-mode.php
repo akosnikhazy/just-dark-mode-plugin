@@ -166,6 +166,7 @@ function dark_mode_switch()
 				else
 				{
 					JDMSwitch.classList.add('JDMSwitchdark');
+	 				JDMSwitch.classList.remove('JDMSwitchlight');
 					JDMSwitch.setAttribute('stroke', '#eee');
 					HTMLtag[0].className = 'JDMdark';
 				}
